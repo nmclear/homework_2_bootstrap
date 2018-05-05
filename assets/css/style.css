@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/green_cup/green_cup.png);
+    font-family: 'PT Sans', sans-serif;
+}
+
+nav {
+    background-image: url(../images/crossword/crossword.png);
+    border: solid 1px #cccccc;
+    height: 75px;
+}
+
+.nav-logo {
+    width: 225px;
+    height: 75px;
+    background: #4aaaa5;
+    left: 16.666666666667%;
+    text-align: center;
+    margin: 0;
+}
+
+
+.nav-links {
+    width: 100%;
+    right: 16.666666666667%;
+}
+
+.container {
+    background-image: url(../images/crossword/crossword.png);
+    margin-top: 30px;
+    width: 66.6666667%;
+    padding: 30px;
+    border: solid 1px #dddddd;
+}
+
+.headshot-img {
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+h1,
+h3 {
+    font-family: 'Lora', serif;
+}
