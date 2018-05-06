@@ -83,3 +83,33 @@ h4 {
 a {
     color: inherit;
 }
+
+#contactFormMessage {
+    height: 200px;
+}
+
+.contact-btn {
+    background-image: url(../images/green_cup/green_cup.png);
+    border: none;
+}
+
+.contact-btn:hover {
+    opacity: 0.7;
+}
+
+footer {
+    background-image: url(../images/crossword/crossword.png);
+    border: solid 1px #cccccc;
+    margin-top: 20px;
+    height: 40px;
+}
+
+footer p {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #a4a995;
+    font-size: 12px;
+    line-height: 40px;
+}
