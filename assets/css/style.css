@@ -5,6 +5,10 @@
 body {
     background-image: url(../images/green_cup/green_cup.png);
     font-family: 'PT Sans', sans-serif;
+    color: #777777;
+    letter-spacing: 1px;
+    line-height: 150%;
+    font-size: 16px;
 }
 
 nav {
@@ -16,16 +20,26 @@ nav {
 .nav-logo {
     width: 225px;
     height: 75px;
-    background: #4aaaa5;
-    left: 16.666666666667%;
     text-align: center;
     margin: 0;
+    padding: 0;
 }
 
+h1 {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+}
+
+.navbar {
+    padding-left: 16.666666666667%;
+    padding-right: 16.666666666667%;
+}
 
 .nav-links {
     width: 100%;
-    right: 16.666666666667%;
 }
 
 .container {
@@ -44,6 +58,28 @@ nav {
 }
 
 h1,
-h3 {
+h3,
+h4 {
     font-family: 'Lora', serif;
+    color: #a4a995;
+}
+
+h4 {
+    margin: 0;
+    text-align: center;
+}
+
+.social-col {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info-text {
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+a {
+    color: inherit;
 }
